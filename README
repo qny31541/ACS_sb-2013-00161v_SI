@@ -1,0 +1,48 @@
+Supplementary Information for ACS Synthetic Biology manuscript sb-2013-00161v
+=============================================================================
+
+Jonathan Blakes, Ofir Raz, Uriel Feige, Jaume Bacardit, Tuval Ben-Yehezkel, Ehud Shapiro, Natalio Krasnogor
+A heuristic for maximizing DNA reuse in synthetic DNA library assembly
+ACS Synthetic Biology
+
+Submitted October 2013 
+Revised February 2014
+
+
+Contents
+--------
+
+ * Anew.py is the new heuristic
+ * A1.py implements the algorithms in Densmore et al. NAR 2010
+ * comparison.py reproduces the efficacy and efficency experimental results
+ * datasets.py contains the all of the test libraries except iGEM submissions
+ * iGEM_submissions_dataset.py demonstrates how libraries were sampled
+  * {2007,2008,2009,2010,2011,2012}.dnald are scraped iGEM submissions by year
+
+
+Requirements
+------------
+
+Algorithms and datasets:
+
+ * Python 2.7
+
+Comparison and visualisation:
+
+ * NumPy
+ * Graphviz
+
+
+Usage
+-----
+
+Compare efficacy and efficency of Anew and A1 on datasets:
+
+ $ python comparison.py
+
+
+Check sizes of iGEM submissions dataset:
+
+ $ python iGEM_submissions_dataset.py
+
+
